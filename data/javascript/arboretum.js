@@ -7,7 +7,7 @@
 
 
 /////////////////////////////////////////////////
-//GLOBAL REQUIREMENTS [micah.comment]
+//GLOBAL REQUIREMENTS [god.comment]
 /////////////////////////////////////////////////
 
 var BASE_URL = "https://g0dengineer.github.io/";
@@ -17,17 +17,17 @@ var GENERA_SPACE = getUrlParameter(GENERA_QUERY_SYMBOLS[0], document.URL) != nul
 
 
 ///////////////////////////////////
-//WELCOME MESSAGE [micah.comment]
+//WELCOME MESSAGE [god.comment]
 ///////////////////////////////////
 var DONT_ALLOW_STARTUP_AUDIOS_CORE = getUrlParameter(GENERA_QUERY_SYMBOLS[1], document.URL);
 
 
 	
 //////////////////////////////////////////
-//CORE FUNCTIONALITIES [micah.comment]
+//CORE FUNCTIONALITIES [god.comment]
 //////////////////////////////////////////
 
-//micah--universeGenera structure, utilizing javascript literal object notation.
+//god--universeGenera structure, utilizing javascript literal object notation.
 //Here I quantify/accumulate all node specific information amidst this customized dictionary.
 var universeGenera = 
 { 
@@ -73,12 +73,12 @@ var link = vis.selectAll("line.link"),
 	
 
 
-d3.timer ( _spectraGeneration ); //[micah.comment]
+d3.timer ( _spectraGeneration ); //[god.comment]
 
 
 
 
-function _spectraGeneration ( ) //[micah.comment]
+function _spectraGeneration ( ) //[god.comment]
 {
 	var source = nodes[~~(Math.random() * nodes.length)],
 		bud = {x: source.x + Math.random() - .5, y: source.y + Math.random() - .5, parent: source, size: 1, url:''};
@@ -147,7 +147,7 @@ function updatePositions() {
 }
 
    
-	//generate controller ux [micah]
+	//generate controller ux [god]
 	var t0 = Date.now();
 	//[god.note - planetOrbitMaxSpan
 	var planetOrbitMaxSpan = 60;
