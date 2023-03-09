@@ -1,0 +1,69 @@
+/*
+Author {Jason Davies, 'Random Arboretum'}
+Modified/Adapted via {Jordan Micah Bennett, Migrated from html and modified}
+*/
+@font-face 
+{
+
+	font-family : Segoe;
+	src : url(../font/segoe.ttf);
+
+}
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+
+body 
+{
+	width: 680px;
+	margin: 1em auto;
+	font-family: Segoe;
+	text-align: center;
+}
+
+p 
+{
+	font-size: 18px;
+	text-align: right;
+}
+
+div
+{
+	text-align: right;
+}
+
+a
+{
+	padding-left: 5px;
+}
+
+
+line
+{ 
+	l: none; stroke: black; stroke-width: 1.5; 
+}
+
+
+/*folioverse.ux controller*/
+.orbit 
+{
+	stroke : #000000;
+	fill : none;
+}
+.planet 
+{
+	stroke : #000000;
+	fill : blue;
+}
+
+p:hover
+{
+	cursor: pointer;
+}
+
