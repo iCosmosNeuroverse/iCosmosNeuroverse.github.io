@@ -1,4 +1,4 @@
-﻿//Author {God Bennett}
+//Author {God Bennett}
 
 enableUserTogglingCapability ( )
 
@@ -103,8 +103,8 @@ function enableHelpCapability ( )
 			$(".folioverseLabel").popover
 			(
 				{
-					title : "<p style = 'color:"+UX_COLOUR+";'>¿whence 'God' is irrelevant? : _atheism's idiocy; theism's nonsense.</p>",
-					content : "<p style = 'color:"+UX_COLOUR+";'> <span class = 'folioverseLabel'> God is any non-omniscient entity with the ability to compute simulation(s) of universes (from crude universes i.e. illustris, to perhaps instance(s) that may contain sophisticated intelligence) and or to engineer non-trivial intelligence (perhaps artificial), that shall exceed that of the intellect of its creators.. </span> </br></br> </br></br> <span class = 'folioverseLabel'> Scientific redefinition of god by an atheist </span> : <a class = 'folioverseLabel' href = 'https://www.researchgate.net/publication/352336263_Why_are_humans_the_only_Gods' > link </a></br> <span class = 'folioverseLabel'> An invention of mine (an experimental paradigm) entitled </span> : <a class = 'folioverseLabel' href = 'https://non-beliefism.github.io' > 'non-beliefism' </a> </p> ",
+					title : "<p style = 'color:"+UX_COLOUR+";'>Dio Lucciola, Jamaican EV/Hypercar for Self Driving Education Ecosystem.</p>",
+					content : "<p style = 'color:"+UX_COLOUR+";'> <span class = 'folioverseLabel'> Check out my latest personal project, a designed/built from scratch hypercar ev/hybrid self driving education ecosystem. </span> : <a class = 'folioverseLabel' href = 'https://youtu.be/B0bdRMAGWSg' > link </a></br> <span class = 'folioverseLabel'> </p> ",
 					placement : 'bottom',
 					trigger: 'hover focus',
 					html : true,
@@ -132,7 +132,7 @@ function enableHelpCapability ( )
 	(
 		function()
 		{
-			$(".authorLabel").popover
+			$(".___authorLabel").popover
 			(
 				{
 					title : "<p style = 'color:"+UX_COLOUR+";'>¿Non-beliefism? : The very concept of belief opposes science</p>",
