@@ -4,7 +4,7 @@ if ( DONT_ALLOW_STARTUP_AUDIOS_CORE == null ) //I don't want to pest the user wi
 	swal
 	(
 		{
-				title: "",text: "Check out my latest personal project, a designed/built from scratch hypercar ev/hybrid self driving education ecosystem.:<a href='https://www.youtube.com/watch?v=B0bdRMAGWSg'> Youtube video Showing full scale prototype thus far.</a> </br></br> ~G.Bennett!", imageUrl: 'data/images/logo.png', html: true, showCancelButton: false,
+				title: "",text: "Check out my latest personal project, a designed/built from scratch hypercar ev/hybrid self driving education ecosystem.:<a href='https://www.youtube.com/watch?v=B0bdRMAGWSg'> Youtube video Showing full scale prototype thus far.</a> </br></br> ~Cosmos Bennett!", imageUrl: 'data/images/logo.png', html: true, showCancelButton: false,
 				confirmButtonColor: "#fff",
 				confirmButtonText: 'Go!',
 				cancelButtonText: "",
