@@ -65,7 +65,7 @@ function enableHelpCapability ( )
 			(
 				{
 					title : "<p style = 'color:"+UX_COLOUR+";'>¿social?</p>",
-					content : "<p style = 'color:"+UX_COLOUR+";' >  <a  class = 'me' href = 'https://www.facebook.com/GodEngineer/' > facebook.com/GodEngineer  </a></p>",
+					content : "<p style = 'color:"+UX_COLOUR+";' >  <a  class = 'me' href = 'https://www.facebook.com/iCosmosNeuroverse/' > facebook.com/iCosmosNeuroverse  </a></p>",
 					placement : 'bottom',
 					trigger: 'hover focus',
 					html : true,
@@ -136,7 +136,7 @@ function enableHelpCapability ( )
 			(
 				{
 					title : "<p style = 'color:"+UX_COLOUR+";'>¿Non-beliefism? : The very concept of belief opposes science</p>",
-					content : "<p style = 'color:"+UX_COLOUR+";'> <span class = 'authorLabel'>Beyond atheism, non-beliefism enables a state of mind that rejects not merely religious belief, but the very concept of belief..</span></br> </br> <span class = 'authorLabel'>As non-beliefism underlines science's great importance, non-beliefism rejects anything that disregards science.</span> </br></br> <span class = 'authorLabel'>Belief is one of many unavoidable candidates/concepts for that which opposes science, for belief by definition/research </span><a class = 'folioverseLabel' href = 'https://godquestbennett.medium.com/scientific-evidence-showing-beliefs-science-opposing-design-8248c83b1a1e' > (See research/standard definition) </a>, <span class = 'folioverseLabel'> permits large ignorance of evidence.</span> </p> </br> <span class = 'folioverseLabel'> An invention of mine (an experimental paradigm) entitled </span> : <a class = 'folioverseLabel' href = 'https://non-beliefism.github.io' > 'non-beliefism' </a>", /*I choose to select two possible messages on hover*/
+					content : "<p style = 'color:"+UX_COLOUR+";'> <span class = 'authorLabel'>Beyond atheism, non-beliefism enables a state of mind that rejects not merely religious belief, but the very concept of belief..</span></br> </br> <span class = 'authorLabel'>As non-beliefism underlines science's great importance, non-beliefism rejects anything that disregards science.</span> </br></br> <span class = 'authorLabel'>Belief is one of many unavoidable candidates/concepts for that which opposes science, for belief by definition/research </span><a class = 'folioverseLabel' href = 'https://iCosmosNeuroverse.medium.com/scientific-evidence-showing-beliefs-science-opposing-design-8248c83b1a1e' > (See research/standard definition) </a>, <span class = 'folioverseLabel'> permits large ignorance of evidence.</span> </p> </br> <span class = 'folioverseLabel'> An invention of mine (an experimental paradigm) entitled </span> : <a class = 'folioverseLabel' href = 'https://non-beliefism.github.io' > 'non-beliefism' </a>", /*I choose to select two possible messages on hover*/
 					placement : 'bottom',
 					trigger: 'hover focus',
 					html : true,
