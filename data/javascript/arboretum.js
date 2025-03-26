@@ -1,5 +1,5 @@
 //Author {Jason Davies, 'Random Arboretum'}
-//Heavily modified/adapted via {God Bennett, Folioverse}
+//Heavily modified/adapted via {Cosmos Bennett, Folioverse}
 
 
 
@@ -7,7 +7,7 @@
 
 
 /////////////////////////////////////////////////
-//GLOBAL REQUIREMENTS [god.comment]
+//GLOBAL REQUIREMENTS [CosmosBennett.Comment]
 /////////////////////////////////////////////////
 
 var BASE_URL = "https://g0dengineer.github.io/";
@@ -17,14 +17,14 @@ var GENERA_SPACE = getUrlParameter(GENERA_QUERY_SYMBOLS[0], document.URL) != nul
 
 
 ///////////////////////////////////
-//WELCOME MESSAGE [god.comment]
+//WELCOME MESSAGE [CosmosBennett.Comment]
 ///////////////////////////////////
 var DONT_ALLOW_STARTUP_AUDIOS_CORE = getUrlParameter(GENERA_QUERY_SYMBOLS[1], document.URL);
 
 
 	
 //////////////////////////////////////////
-//CORE FUNCTIONALITIES [god.comment]
+//CORE FUNCTIONALITIES [CosmosBennett.Comment]
 //////////////////////////////////////////
 
 //god--universeGenera structure, utilizing javascript literal object notation.
@@ -73,12 +73,12 @@ var link = vis.selectAll("line.link"),
 	
 
 
-d3.timer ( _spectraGeneration ); //[god.comment]
+d3.timer ( _spectraGeneration ); //[CosmosBennett.Comment]
 
 
 
 
-function _spectraGeneration ( ) //[god.comment]
+function _spectraGeneration ( ) //[CosmosBennett.Comment]
 {
 	var source = nodes[~~(Math.random() * nodes.length)],
 		bud = {x: source.x + Math.random() - .5, y: source.y + Math.random() - .5, parent: source, size: 1, url:''};
